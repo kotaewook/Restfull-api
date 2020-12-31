@@ -5,13 +5,13 @@ class db
     // Project Database
     private $PROJECT_DB = array(
         'AIINZ' => array(
-            'host' => 'aiinz-db.c0kuxyo0ac9a.ap-northeast-2.rds.amazonaws.com',
-            'user' => 'pickme_root',
-            'password' => 'zhemqpfmrm1!'
+            'host' => 'host',
+            'user' => 'user',
+            'password' => 'password'
         )
     );
     // Database Name
-    private $DB_ARR = array('AIINZ_PHP');
+    private $DB_ARR = array('database');
     private $conn;
 
     public function __construct()
